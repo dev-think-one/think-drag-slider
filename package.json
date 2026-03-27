@@ -1,0 +1,27 @@
+{
+    "name": "think-drag-slider",
+    "version": "1.0.0",
+    "description": "A lightweight JavaScript utility for enabling click-and-drag horizontal scrolling on any element.",
+    "main": "dragSlider.js",
+    "scripts": {
+        "test": "echo \"No tests specified\" && exit 0"
+    },
+    "keywords": [
+        "slider",
+        "javascript",
+        "ui"
+    ],
+    "author": "Oleh Makedonskiy <dev@think.studio>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dev-think-one/think-drag-slider.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dev-think-one/think-drag-slider/issues"
+    },
+    "files": [
+        "dragSlider.js",
+        "dragSlider.css"
+    ]
+}

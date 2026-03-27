@@ -1,0 +1,40 @@
+/**
+ * @file dragSlider.css
+ * @description Cursor and interaction styles for draggable slider elements.
+ */
+
+/**
+ * Root drag slider container.
+ */
+.drag-slider {
+    position: relative;
+    cursor: grab;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.drag-slider::-webkit-scrollbar {
+    display: none;
+}
+
+/**
+ * Cursor feedback while dragging.
+ */
+.drag-slider.active {
+    cursor: grabbing;
+}
+
+/**
+ * Disable text/image dragging and text selection on descendants.
+ * Repeated vendor-prefixed declarations are intentional for broad browser support.
+ */
+.drag-slider * {
+    -webkit-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
